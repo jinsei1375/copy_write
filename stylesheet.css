@@ -1,0 +1,217 @@
+body {
+  width: 1035px;
+  margin: 0 auto 0;
+}
+body p {
+  font-family: serif;
+}
+header {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.top h1 {
+  margin: 0;
+  font-family: serif;
+}
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.menues {
+  list-style: none;
+  display: flex;
+}
+.menues a {
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+}
+.menues a:hover {
+  color: darkorange;
+}
+.theme p {
+  margin-top: 0px;
+  opacity: 0.5;
+}
+.menu {
+  padding-right: 30px;
+}
+.subText {
+  margin-top: 80px;
+}
+.subText h2 {
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+.histories {
+  margin-top: 160px;
+}
+.history {
+  display: flex;
+  margin-bottom: 80px;
+}
+.container {
+  margin-left: 100px;
+  height: 135px;
+  width: 650px;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+}
+.container a:hover {
+  color: darkorange;
+}
+.container p {
+  opacity: 0.6;
+  font-family: serif;
+}
+.date {
+  width: 300px;
+}
+.date p {
+  margin-top: 0;
+  opacity: 0.5;
+  font-family: cursive;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.page {
+  border: 1px solid #c0c0c0;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.page :hover {
+  opacity: 1;
+}
+.go {
+  width: 80px;
+}
+.page p {
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  height: 430px;
+  margin-bottom: 70px;
+}
+.footer p {
+  opacity: 0.7;
+}
+.footContainers {
+  display: flex;
+  margin: 60px 0 90px;
+}
+.footContainer {
+  width: 25%;
+  margin-right: 50px;
+}
+.profile {
+  display: flex;
+}
+.photo img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.name p {
+  font-weight: bold;
+  opacity: 1;
+}
+.icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.footContainer {
+  position: relative;
+  height: 280px;
+}
+.footTheme p {
+  font-weight: bold;
+  opacity: 1;
+}
+.footIndex {
+  margin-top: 30px;
+}
+.footPost {
+  margin-bottom: 10px;
+}
+.postIndex a {
+  display: inline-block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  opacity: 0.7;
+  border-bottom: 1px solid #c0c0c0;
+}
+.postIndex a:hover {
+  color: darkorange;
+}
+.postIndex p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.postDate p {
+  opacity: 0.5;
+  font-family: cursive;
+}
+.cateIndex a {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  opacity: 0.7;
+  border-bottom: 1px solid #c0c0c0;
+}
+.cateIndex a:hover {
+  color: darkorange;
+}
+.searchSite {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.inputText {
+  height: 36px;
+  border: 1px solid #c0c0c0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+}
+.footIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+.icon {
+  opacity: 0.6;
+}
+.message p {
+  margin-top: 0;
+  opacity: 0.7;
+}
+.marg {
+  width: 80px;
+}
