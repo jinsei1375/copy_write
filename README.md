@@ -1,1 +1,1 @@
-# copy_write
+# shogolog
