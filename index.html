@@ -3,217 +3,454 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Write-書くためのテーマ</title>
+    <title>shogolog</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
       rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
   </head>
   <body>
     <header>
-      <div class="top">
-        <h1>Write</h1>
+      <div class="header_nav">
+        <div class="header_nav_index">
+          <div class="header_nav_catch">
+            <div class="header_nav_img">
+              <img
+                src="Pink and Purple Events & party Entertainment Logo.png"
+                alt=""
+              />
+            </div>
+            <div class="nav_name"><h2>ユアコーディング</h2></div>
+          </div>
+          <div class="header_nav_link">
+            <ul>
+              <li><a href="#features">特徴</a></li>
+              <li><a href="#price">価格</a></li>
+              <li><a href="#contact_form">お問い合わせ</a></li>
+            </ul>
+          </div>
+          <div class="btn contact btn_header">
+            <a href="#contact_form">お問い合わせ</a>
+          </div>
+          <div id="navArea">
+            <div class="hamberger_menu">
+              <span></span>
+              <span></span>
+              <span></span> 
+            </div>          
+            <div id="mask"></div>
+            <nav class="nav_link">
+              <div class="inner">
+                <ul>
+                  <li><a href="#features">特徴</a></li>
+                  <li><a href="#price">価格</a></li>
+                  <li><a href="#contact_form">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div> 
+        </div>       
       </div>
-      <div class="topMenu">
-        <div class="theme">
-          <p>書くためのテーマ</p>
+      <div class="header_index">
+        <section class="header_index_contents">
+          <div class="header_index_message">
+            <h1>
+              コーディングの手間を <br class="br_pc" />最小に、デザインに注力
+              <br class="br_pc" />する助けに
+            </h1>
+          </div>
+          <div class="header_index_detail">
+            <p>
+              ユアコーディングはコーディングに 特化したフリーランス<br
+                class="br_pc"
+              />
+              デザインに注力されたい方の <br class="br_pc" />助けになります
+            </p>
+          </div>
+          <div class="btn contact"><a href="#contact_form">お問い合わせ</a></div>
+        </section>
+        <div class="header_index_imges">
+          <div class="header_index_img daen">
+            <img src="楕円形 1.svg" alt="" />
+          </div>
+          <div class="header_index_img manager">
+            <img src="manager.png" alt="" />
+          </div>
         </div>
-        <div class="menues">
-          <a href="#" class="menu pul"
-            >ホーム <span><i class="fas fa-angle-down"></i> </span
-          ></a>
-          <a href="#" class="menu pul"
-            >ページ <span><i class="fas fa-angle-down"></i> </span
-          ></a>
-          <a href="#" class="menu">タイポグラフィー</a>
-          <a href="#" class="menu">お問い合わせ</a>
-        </div>
-        <div class="search"><i class="fas fa-search fa-2x"></i></div>
       </div>
     </header>
     <main>
-      <div class="pic">
-        <img src="cropped-nicole-honeywill-730102-unsplash.jpg" />
-      </div>
-      <div class="subText">
-        <h2>
-          Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
-        </h2>
-      </div>
-      <div class="histories">
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">書くためのテーマ</a>
-            <p>
-              Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
-            </p>
-          </div>
+      <section class="main_wrapper features" id="features" data-aos="fade-up">
+        <div class="main_header">
+          <h1>ユアコーディング3つの特徴</h1>
+          <p>FEATURES</p>
         </div>
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">画像付きの投稿</a>
-            <p>
-              吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。
-            </p>
-          </div>
-        </div>
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">引用付きの投稿</a>
-            <p>
-              吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…
-            </p>
-          </div>
-        </div>
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">コメント付きの投稿</a>
-            <p>
-              吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。
-              しかもあとで聞くとそ…
-            </p>
-          </div>
-        </div>
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">吾輩は猫である</a>
-            <p>
-              吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。
-              しかもあとで聞くとそ…
-            </p>
-          </div>
-        </div>
-        <div class="history">
-          <div class="date"><p>2018年9月1日</p></div>
-          <div class="container">
-            <a href="#">名前はまだない。どこで生まれたかとんと見当がつかぬ。</a>
-            <p>
-              吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。
-              しかもあとで聞くとそ…
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="pages">
-        <div class="page go">
-          <p>
-            <span><i class="fas fa-angle-double-left"></i></span> 前へ
-          </p>
-        </div>
-        <div class="page"><p>1</p></div>
-        <div class="page"><p>2</p></div>
-        <div class="page"><p>3</p></div>
-        <div class="page go">
-          <p>
-            次へ <span><i class="fas fa-angle-double-right"></i></span>
-          </p>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="footContainers">
-          <div class="footContainer">
-            <div class="profile">
-              <div class="photo">
-                <img src="profile-m.png" class="proPhoto" />
+        <section class="features_content coding">
+          <h2>高速コーディング</h2>
+          <div class="features_index">
+            <div class="features_img"><img src="cto.png" alt="" /></div>
+            <div class="features_index_details">
+              <div class="features_index_catch">
+                <p>
+                  コーディングに特化したフリーランスのため、
+                  スピード感を持った開発が可能。
+                </p>
               </div>
-              <div class="names">
-                <div class="name">
-                  <p>John Doe</p>
-                </div>
-                <div class="icons">
-                  <div class="icon">
-                    <i class="fab fa-twitter"></i>
-                  </div>
-                  <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                  </div>
-                  <div class="icon">
-                    <i class="fas fa-camera-retro"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="footerIndex">
-              <p>
-                これはプロフィールウィジェットです。ここにはプロフィール画像・名前・自己紹介文・ソーシャルリンク（最大7つ）を設定することができます。
-              </p>
-            </div>
-          </div>
-          <div class="footContainer">
-            <div class="footTheme">
-              <p>フッター右</p>
-            </div>
-            <div class="footIndex">
-              <p>
-                3つのフッター右ウィジェットエリアはフッターの右側に表示され、使用する数によって幅は自動的に調整されます。1つも使用しない場合は表示されません。
-              </p>
-            </div>
-          </div>
-          <div class="footContainer">
-            <div class="footTheme">
-              <p>最近の投稿</p>
-            </div>
-            <div class="postIndex">
-              <div class="footPosts">
-                <div class="footPost">
-                  <div class="postTheme"><a href="#">書くためのテーマ</a></div>
-                  <div class="postDate"><p>2018年9月1日</p></div>
-                </div>
-                <div class="footPost">
-                  <div class="postTheme"><a href="#">画像付きの投稿</a></div>
-                  <div class="postDate"><p>2018年3月5日</p></div>
-                </div>
-                <div class="footPost">
-                  <div class="postTheme"><a href="#">飲用付きの投稿</a></div>
-                  <div class="postDate"><p>2018年3月5日</p></div>
-                </div>
+              <div class="features_index_detail">
+                <p>
+                  開発は常にスピードとの勝負です。<br class="br_pc" />
+                  ユアコーディングはコーディングに特化しているため、<br
+                    class="br_pc"
+                  />
+                  素早く納品することで、クライアントがデザインに注力<br
+                    class="br_pc"
+                  />
+                  する助けとなります。
+                </p>
               </div>
             </div>
           </div>
-          <div class="footContainer">
-            <div class="footTheme">
-              <p>カテゴリー</p>
+        </section>
+        <section class="features_content high_qua">
+          <h2>高品質</h2>
+          <div class="features_index">
+            <div class="features_index_details">
+              <div class="features_index_catch">
+                <p>
+                  正しいマークアップで、<br class="br_pc" />
+                  内部SEOに強いコーディングを
+                  <br class="br_pc" />デフォルトで行います。
+                </p>
+              </div>
+              <div class="features_index_detail">
+                <p>
+                  ユアコーディングでは、「予測しやすい」「再利用しやすい」<br
+                    class="br_pc"
+                  />
+                  「保守しやすい」「拡張しやすい」と言った設計をもとに<br
+                    class="br_pc"
+                  />
+                  きちんとコーディングを行うため、納品後も安心です。
+                </p>
+              </div>
             </div>
-            <div class="cateIndex cate">
-              <a href="#">サンプル投稿</a>
-              <a href="#">投稿フォーマット</a>
-              <a href="#">普通の投稿</a>
+            <div class="features_img high_quality">
+              <img src="building_website.png" alt="" />
             </div>
-            <div class="searchSite">
-              <input
-                type="text"
-                class="inputText"
-                size="26"
-                style="font-size: 16px"
-                placeholder="検索..."
-              />
+          </div>
+        </section>
+        <section class="features_content speed">
+          <h2>迅速なレスポンス</h2>
+          <div class="features_index">
+            <div class="features_img"><img src="new_message.png" alt="" /></div>
+            <div class="features_index_details">
+              <div class="features_index_catch">
+                <p>
+                  原則いただいたメッセージは、<br class="br_pc" />
+                  業務時間内であれば6時間以内に
+                  <br class="br_pc" />お返しいたします。
+                </p>
+              </div>
+              <div class="features_index_detail">
+                <p>
+                  連絡を返さないフリーランスが多い中、<br class="br_pc" />
+                  ユアコーディングでは定期的な進捗報告など、<br class="br_pc" />
+                  社会人としての基本を踏まえて仕事を行なって
+                  <br class="br_pc" />おります。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="main_wrapper price" id="price"data-aos="fade-up">
+        <div class="main_header">
+          <h1>価格</h1>
+          <p>PRICE</p>
+        </div>
+        <table class="price_table">
+          <tr>
+            <td class="table_what">HTMLコーディングトップページ</td>
+            <td class="table_price">30.000円〜</td>
+          </tr>
+          <tr>
+            <td class="table_what">HTMLコーディング下層1ページ</td>
+            <td class="table_price">10.000円〜</td>
+          </tr>
+          <tr>
+            <td class="table_what">HTML+WordPressトップページ</td>
+            <td class="table_price">55.000円〜</td>
+          </tr>
+          <tr>
+            <td class="table_what">HTML+WordPress下層1ページ</td>
+            <td class="table_price">15.000円〜</td>
+          </tr>
+        </table>
+        <p class="price_info">＊詳細な価格はページや仕様によって異なります</p>
+      </section>
+      <section class="main_wrapper faq" data-aos="fade-up">
+        <div class="main_header">
+          <h1>よくある質問</h1>
+          <p>FAQ</p>
+        </div>
+        <div class="faq_wrapper">
+          <ul id="faq_list">
+            <li class="faq_list_item">
+              <div class="question">
+                <p>
+                  デザインから一貫してお願いすることは可能でしょうか<span
+                    >+</span
+                  >
+                </p>
+              </div>
+              <div class="answer">
+                <p>
+                  ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。<br
+                    class="br_pc"
+                  />
+                  ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
+                </p>
+              </div>
+            </li>
+            <li class="faq_list_item">
+              <div class="question">
+                <p>
+                  にWordPressのカスタマイズをお願いすることも可能でしょうか？<span
+                    >+</span
+                  >
+                </p>
+              </div>
+              <div class="answer">
+                <p>
+                  可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。
+                </p>
+              </div>
+            </li>
+            <li class="faq_list_item">
+              <div class="question">
+                <p>コーディングのスピード感が知りたい<span>+</span></p>
+              </div>
+              <div class="answer">
+                <p>
+                  HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安に
+                  なります。
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main_wrapper blog" data-aos="fade-up">
+        <div class="main_header">
+          <h1>ブログ</h1>
+          <p>BLOG</p>
+        </div>
+        <div class="blog_contents">
+          <div class="blog_content">
+            <div class="blog_img">
+              <img src="austin-distel-wawEfYdpkag-unsplash.png" alt="" />
+            </div>
+            <div class="blog_index">
+              <div class="blog_title">
+                <p>サイトをリニューアルオープンしました。</p>
+              </div>
+              <div class="blog_date"><p>2020.01.23</p></div>
+            </div>
+          </div>
+          <div class="blog_content">
+            <div class="blog_img">
+              <img src="dylan-gillis-KdeqA3aTnBY-unsplash.png" alt="" />
+            </div>
+            <div class="blog_index">
+              <div class="blog_title">
+                <p>
+                  WebサイトでSEO内部施策に適したコーディングでどれぐらいサイトが早くなるの
+                  か検証してみました
+                </p>
+              </div>
+              <div class="blog_date"><p>2020.01.24</p></div>
+            </div>
+          </div>
+          <div class="blog_content">
+            <div class="blog_img">
+              <img src="brooke-cagle-g1Kr4Ozfoac-unsplash.png" alt="" />
+            </div>
+            <div class="blog_index">
+              <div class="blog_title">
+                <p>
+                  ユアコーディングではデザイナーの方を
+                  <br class="br_pc" />広く募集しています。
+                </p>
+              </div>
+              <div class="blog_date"><p>2020.01.25</p></div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="main_wrapper works" data-aos="fade-up">
+        <div class="main_header">
+          <h1>制作実績</h1>
+          <p>WORKS</p>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper_img">
+                <img src="digital-marketing-1433427_1280-1.png" alt="" />
+              </div>
+              <div class="swiper_content">
+                <h3>株式会社サンプル採用サイトのコーディングを行いました！</h3>
+                <div class="swiper_detail">
+                  <p>採用技術：jQuery,Bootstrap4</p>
+                  <p>実装期間：6週間</p>
+                  <p>担当コーダー：石井</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img">
+                <img src="arnel-hasanovic-MNd-Rka1o0Q-unsplash.png" alt="" />
+              </div>
+              <div class="swiper_content">
+                <h3>
+                  コーディングカンファレンスのイベントLPの制作を行いました！
+                </h3>
+                <div class="swiper_detail">
+                  <p>採用技術：jQuery,Bootstrap4</p>
+                  <p>実装期間：2週間</p>
+                  <p>担当コーダー：石井</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img">
+                <img src="digital-marketing-1433427_1280-2.png" alt="" />
+              </div>
+              <div class="swiper_content">
+                <h3>
+                  株式会社サンプル様採用サイトのコーディングを行いました！
+                </h3>
+                <div class="swiper_detail">
+                  <p>採用技術：jQuery,WordPress</p>
+                  <p>実装期間：4週間</p>
+                  <p>担当コーダー：石井</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img">
+                <img src="hal-gatewood-tZc3vjPCk-Q-unsplash.png" alt="" />
+              </div>
+              <div class="swiper_content">
+                <h3>
+                  株式会社サンプル様通販サイトのコーディングを行いました！
+                </h3>
+                <div class="swiper_detail">
+                  <p>採用技術：jQuery,Bootstrap4</p>
+                  <p>実装期間：2週間</p>
+                  <p>担当コーダー：石井</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="main_wrapper contact" data-aos="fade-up" id="contact_form">
+        <div class="main_header">
+          <h1>お問い合わせ</h1>
+          <p>CONTACT</p>
+        </div>
+        <p class="contact_message">
+          コーディングの人出が足りないとき、<br />
+          あなたの力になります
+        </p>
+        <div class="form-wrapper">
+          <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebqozi8F1vB_7lkGPy0L1pTa0detbtp8yFcH2HjhmXSrTT6w/formResponse"
+            id="form">
+            <div class="box">
+              <label for="name">お名前 <span>必須</span></label>
+              <input type="text" name="entry.2124956289" id="name" class="text_area short" required>
+            </div>
+            <div class="box">
+              <label for="email">メールアドレス<span>必須</span></label>
+              <input type="email" name="entry.236326815" id="mail" class="text_area short"  required>
+            </div>
+            <div class="box">
+              <label for="contact_area">お問い合わせ<span>必須</span></label>
+              <textarea name="entry.785675115" id="" class="text_area long" cols="30"></textarea>
+            </div>
+            <div class="box privacy_area">
+              <input type="checkbox" value="プライバシーポリシー" id="privacyCheck">プライバシーポリシーに同意します
+            </div>
+            <div class="submit_wrapper">
+              <input type="submit" class="submit-btn" id="js_submit" value="送信する">
+            </div>
+          </form>
+            <p class="end-message">お問い合わせありがとうございました</p>
+            <p class="false-message">送信失敗です</p>
+        </div>
+      </section>
     </main>
     <footer>
-      <div class="footIcons">
-        <div class="icon">
-          <i class="fab fa-twitter"></i>
-        </div>
-        <div class="icon">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-        <div class="icon">
-          <i class="fas fa-camera-retro"></i>
-        </div>
+      <div class="footer_contents">
+        <p>ユアコーディング</p>
+        <ul>
+          <li><a href="#">プライバシーポリシー</a></li>
+          <li><a href="#">個人商取引法に基づく表記</a></li>
+        </ul>
+        <p><small>©ユアコーディング, All Rights Reserved.</small></p>
       </div>
-      <div class="message">
-        <p>Powered by WordPress | Theme: Write by Themegraphy</p>
-      </div>
-      <div class="marg"></div>
     </footer>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      var mySwiper = new Swiper(".swiper-container", {
+        loop: true,
+        speed: 1000,
+        slidesPerView: 2,
+        spaceBetween: 56,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+        1160: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 600,
+        easing: "ease",
+        delay: 50,
+        once: false,
+        anchorPlacement: "top-center",
+      });
+    </script>
   </body>
 </html>
