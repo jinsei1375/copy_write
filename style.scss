@@ -456,7 +456,7 @@ html {
           width: 100%;
           .swiper-wrapper {
             display: flex;
-            width: 100%;
+            width: 1500px;
             .swiper-slide {
               display: flex;
               width: 25%;
@@ -628,30 +628,89 @@ html {
 }
 @media (max-width: 870px) {
   html {
-    font-size: 10px;
-    header {
-      width: 100%;
-      .header_nav {
+    font-size: 15px;
+    body {
+      header {
         width: 100%;
-        .header_nav_index {
-          width: 90%;
-          .header_nav_link {
-            display: none;
+        .header_index {
+          flex-direction: column;
+          width: 85%;
+          margin: 0 auto;
+          .header_index_contents {
+            width: 100% !important;
+            padding: 10% 8%;
+            padding-bottom: 0;
+            .header_index_message,
+            .header_index_detail {
+              margin-bottom: 5%;
+            }
           }
-          .btn_header {
-            display: none;
-          }
-          .hamberger_menu {
-            display: block;
+          .header_index_imges {
+            width: 100% !important;
           }
         }
+        .header_nav {
+          width: 100%;
+          .header_nav_index {
+            width: 90%;
+            .header_nav_catch {
+              width: 50%;
+            }
+            .header_nav_link {
+              display: none;
+            }
+            .btn_header {
+              display: none;
+            }
+            .hamberger_menu {
+              display: block;
+            }
+          }
+        }
+        .header_index_img {
+          position: relative !important;
+        }
+        .daen {
+          top: 0 !important;
+          right: 0 !important;
+          width: 80% !important;
+          margin: 0 auto;
+          float: right;
+        }
+        .manager {
+          position: absolute !important;
+          top: 60% !important;
+          left: 36%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+      }
+      main .features .features_content .features_index {
+        flex-direction: column;
+        .features_img {
+          width: 100%;
+        }
+        .features_index_details {
+          width: 100%;
+        }
+      }
+      main .blog .blog_contents {
+        flex-direction: column;
+        .blog_content {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+      main .works .swiper-container .swiper-wrapper .swiper-slide {
+        min-height: 140px !important;
       }
     }
   }
 }
 @media (max-width: 670px) {
   html {
-    font-size: 7px;
+    font-size: 10px;
     body main .contact .form-wrapper #form .box .short {
       height: 20px;
     }
@@ -666,5 +725,3 @@ html {
     }
   }
 }
-// ・ヘッダーは固定（追随する）でお願いします。 ・SP版はPC版を参考に作成する（ハンバーガーメニュー設置など） 　ヒント：余白やフォント周りに特に気を配ってみてください。 ・よくある質問のアコーディオンはデフォルトは１つ目のみ 　開いている状態で（js利用） ・制作実績部分はスライダーになるので、swiperを利用してください 　その際、5秒おきに自動スワイプするようにしてください。 　また、スマホで指でも左右にスワイプできるようにしてください。 ・AOS.jsなどで各々の要素をふわっと表示させる ・「お問い合わせ」ボタンを押すと、お問い合わせフォームに 　　スムーススクロールする ・フォントは Google Fontsの「Noto sans jp」を利用するようにお願いします ・フォームの部分は全入力欄および「プライバシーポリシーに同意します」に チェックがないとsubmitできないようにする 参考記事：https://shogo-log.com/submit-disabled/ ・余裕があれば、以下いずれか使用し、お問い合わせフォームを　動作するようにしてみる 　①Googleフォームとの紐づけ↓ 　https://shogo-log.com/google-form-ajax/ 　②Responsive Mailform 　③WordPress化してフォーム設置
-// https: //docs.google.com/forms/u/0/d/e/1FAIpQLSebqozi8F1vB_7lkGPy0L1pTa0detbtp8yFcH2HjhmXSrTT6w/formResponse
