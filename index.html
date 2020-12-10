@@ -417,7 +417,7 @@
       var mySwiper = new Swiper(".swiper-container", {
         loop: true,
         speed: 1000,
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 56,
         pagination: {
           el: ".swiper-pagination",
@@ -432,6 +432,12 @@
         autoplay: {
           delay: 5000,
           disableOnInteraction: false,
+        },
+        breakpoints: {
+        870: {
+          centeredSlide: true,
+          slidesPerView: 2,
+          spaceBetween: 50,
         },
         breakpoints: {
         1160: {
